@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import s from './Button.css';
+import './Button.scss';
 
 /**
  * The only true button.
@@ -13,7 +13,7 @@ export default function Button({ color, size, children }) {
 	};
 
 	return (
-		<button className={s.root} style={styles}>
+		<button className="button" style={styles}>
 			{children}
 		</button>
 	);
@@ -28,7 +28,7 @@ Button.propTypes = {
 	size: PropTypes.oneOf(['small', 'normal', 'large']),
 };
 Button.defaultProps = {
-  color: '#333',
+    color: '#333',
 	size: 'normal',
 };
 Button.sizes = {
