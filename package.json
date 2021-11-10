@@ -34,6 +34,8 @@
   "scripts": {
     "start": "styleguidist server",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "style-dictionary:init": "style-dictionary init basic",
+    "style-dictionary:build": "style-dictionary build && make copy-style"
   }
 }
