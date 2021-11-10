@@ -13,7 +13,7 @@
     "url": "git://github.com/sapegin/react-styleguidist-example.git"
   },
   "license": "MIT",
-  "engines": {
+    "engines": {
     "node": ">=4"
   },
   "dependencies": {
@@ -27,6 +27,7 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-styleguidist": "^9.0.8",
+    "style-dictionary": "^3.0.3",
     "style-loader": "^0.23.1",
     "webpack": "^4.30.0"
   },
