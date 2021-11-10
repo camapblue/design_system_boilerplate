@@ -28,7 +28,7 @@ Button.propTypes = {
 	size: PropTypes.oneOf(['small', 'normal', 'large']),
 };
 Button.defaultProps = {
-	color: '#333',
+  color: '#333',
 	size: 'normal',
 };
 Button.sizes = {
