@@ -13,7 +13,7 @@
     "url": "git://github.com/sapegin/react-styleguidist-example.git"
   },
   "license": "MIT",
-    "engines": {
+  "engines": {
     "node": ">=4"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
+    "copyfiles": "^2.4.1",
     "css-loader": "^2.1.1",
     "prop-types": "^15.6.1",
     "react": "^16.8.6",
@@ -36,6 +37,6 @@
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build",
     "style-dictionary:init": "style-dictionary init basic",
-    "style-dictionary:build": "style-dictionary build && make copy-style"
+    "style-dictionary:build": "style-dictionary build && copyfiles -f ./build/scss/styles.scss ./src"
   }
 }
