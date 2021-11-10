@@ -24,6 +24,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "copyfiles": "^2.4.1",
     "css-loader": "^2.1.1",
+    "node-sass": "^6.0.1",
     "prop-types": "^15.6.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
