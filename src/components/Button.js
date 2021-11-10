@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import '../styles.scss';
 
 import s from './Button.css';
 
@@ -29,7 +28,7 @@ Button.propTypes = {
 	size: PropTypes.oneOf(['small', 'normal', 'large']),
 };
 Button.defaultProps = {
-	color: $color-base-green,
+  color: '#333',
 	size: 'normal',
 };
 Button.sizes = {

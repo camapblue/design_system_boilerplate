@@ -26,6 +26,15 @@ module.exports = {
 						},
 					],
 				},
+        {
+          test: /\.scss$/,
+          exclude: /node_modules/,
+          loaders: [
+            require.resolve('style-loader'),
+            require.resolve('css-loader'),
+            require.resolve('sass-loader')
+          ]  
+        },
 			],
 		},
 	},
