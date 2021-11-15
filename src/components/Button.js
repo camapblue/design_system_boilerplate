@@ -8,7 +8,7 @@ import './Button.scss';
  */
 export default function Button({ color, size, children }) {
 	let styles = {
-		color,
+		// color,
 		fontSize: Button.sizes[size],
 	};
 
@@ -28,7 +28,7 @@ Button.propTypes = {
 	size: PropTypes.oneOf(['small', 'normal', 'large']),
 };
 Button.defaultProps = {
-    color: '#333',
+  color: '#333',
 	size: 'normal',
 };
 Button.sizes = {

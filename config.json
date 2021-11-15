@@ -124,6 +124,16 @@
           }
         }
       }]
+    },
+    "flutter": {
+      "transformGroup": "flutter",
+      "buildPath": "build/flutter/",
+      "files": [{
+        "destination": "StyleDictionary.dart",
+        "format": "flutter/class.dart",
+        "className": "StyleDictionary",
+        "filter": {}
+      }]
     }
   }
 }
