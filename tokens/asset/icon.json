@@ -1,0 +1,17 @@
+{
+  "icon": {
+    "tabbar": {
+      "home": { "value": "'tabbar_home.svg'" },
+      "order": { "value": "'tabbar_order.svg'" },
+      "cart": { "value": "'tabbar_cart.svg'" },
+      "offer": { "value": "'tabbar_offer.svg'" },
+      "more": { "value": "'tabbar_more.svg'" }
+    },
+    "star": { 
+      "value": "'star.svg'"
+    },
+    "checked": {
+      "value": "'checked.svg'"
+    }
+  }
+}

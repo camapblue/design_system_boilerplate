@@ -13,7 +13,7 @@ const updateZeplinDesignTokens = async () => {
   });
 
   console.log('RES =', data);
-  fs.writeFile('./tokens/design_tokens.json', JSON.stringify(data, null, 2), 'utf8', function(err) {
+  fs.writeFile('./zeplin_tokens/design_tokens.json', JSON.stringify(data, null, 2), 'utf8', function(err) {
     if (err) throw err;
 
     console.log('complete');
