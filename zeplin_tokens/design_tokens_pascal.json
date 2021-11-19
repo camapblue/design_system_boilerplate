@@ -1,6 +1,6 @@
 {
   "colors": {
-    "color-neutral-black": {
+    "ColorNeutralBlack": {
       "value": "rgb(15, 15, 15)",
       "metadata": {
         "source": {
@@ -16,7 +16,7 @@
         }
       }
     },
-    "color-utility-destructive": {
+    "ColorUtilityDestructive": {
       "value": "rgb(226, 13, 13)",
       "metadata": {
         "source": {
@@ -32,7 +32,7 @@
         }
       }
     },
-    "color-utility-positive": {
+    "ColorUtilityPositive": {
       "value": "rgb(56, 211, 124)",
       "metadata": {
         "source": {
@@ -48,7 +48,7 @@
         }
       }
     },
-    "color-utility-neutral": {
+    "ColorUtilityNeutral": {
       "value": "rgb(49, 141, 239)",
       "metadata": {
         "source": {
@@ -66,7 +66,7 @@
     }
   },
   "text_styles": {
-    "typography-paragraph-small-bold-hi": {
+    "TypographyParagraphSmallBoldHi": {
       "value": {
         "font": {
           "family": "Inter",
@@ -92,7 +92,7 @@
         }
       }
     },
-    "typography-heading-h2-hi": {
+    "TypographyHeadingH2Hi": {
       "value": {
         "font": {
           "family": "Inter",
@@ -118,7 +118,7 @@
         }
       }
     },
-    "typography-heading-h2-low": {
+    "TypographyHeadingH2Low": {
       "value": {
         "font": {
           "family": "ComicSansMS",
@@ -144,7 +144,7 @@
         }
       }
     },
-    "typography-heading-h1-hi": {
+    "TypographyHeadingH1Hi": {
       "value": {
         "font": {
           "family": "Inter",
@@ -170,7 +170,7 @@
         }
       }
     },
-    "typography-heading-h1-low": {
+    "TypographyHeadingH1Low": {
       "value": {
         "font": {
           "family": "ComicSansMS",
@@ -196,7 +196,7 @@
         }
       }
     },
-    "typography-paragraph-small-bold-low": {
+    "TypographyParagraphSmallBoldLow": {
       "value": {
         "font": {
           "family": "ComicSansMS",
