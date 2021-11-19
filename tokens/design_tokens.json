@@ -1,0 +1,279 @@
+{
+  "colors": {
+    "neutral-black": {
+      "value": "rgb(15, 15, 15)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6196fe2f47bacaab874d63cc",
+          "type": "Color"
+        }
+      }
+    },
+    "utility-destructive": {
+      "value": "rgb(226, 13, 13)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6196fe2f57d4adabe665487e",
+          "type": "Color"
+        }
+      }
+    },
+    "utility-positive": {
+      "value": "rgb(56, 211, 124)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6196fe2febe3bead745c09f3",
+          "type": "Color"
+        }
+      }
+    },
+    "utility-neutral": {
+      "value": "rgb(49, 141, 239)",
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6196fe30066fd4aa173b5bc5",
+          "type": "Color"
+        }
+      }
+    }
+  },
+  "text_styles": {
+    "paragraph-small-bold-hi": {
+      "value": {
+        "font": {
+          "family": "Inter",
+          "size": 14,
+          "weight": 700,
+          "stretch": 1
+        },
+        "line_height": 22,
+        "letter_spacing": 0,
+        "color": "{colors.neutral-black.value}"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6197040f54e415a77701872a",
+          "type": "TextStyle"
+        }
+      }
+    },
+    "heading-h2-hi": {
+      "value": {
+        "font": {
+          "family": "Inter",
+          "size": 28,
+          "weight": 700,
+          "stretch": 1
+        },
+        "line_height": 32,
+        "letter_spacing": -0.4000000059604645,
+        "color": "{colors.neutral-black.value}"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6197041066c603aaba57446c",
+          "type": "TextStyle"
+        }
+      }
+    },
+    "heading-h2-low": {
+      "value": {
+        "font": {
+          "family": "ComicSansMS",
+          "size": 28,
+          "weight": 700,
+          "stretch": 1
+        },
+        "line_height": 32,
+        "letter_spacing": -0.6000000238418579,
+        "color": "{colors.neutral-black.value}"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "619704113990bfa950965799",
+          "type": "TextStyle"
+        }
+      }
+    },
+    "heading-h1-hi": {
+      "value": {
+        "font": {
+          "family": "Inter",
+          "size": 36,
+          "weight": 700,
+          "stretch": 1
+        },
+        "line_height": 38,
+        "letter_spacing": -0.4000000059604645,
+        "color": "{colors.neutral-black.value}"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6197041250e7eca8af0b5847",
+          "type": "TextStyle"
+        }
+      }
+    },
+    "heading-h1-low": {
+      "value": {
+        "font": {
+          "family": "ComicSansMS",
+          "size": 36,
+          "weight": 700,
+          "stretch": 1
+        },
+        "line_height": 38,
+        "letter_spacing": -0.6000000238418579,
+        "color": "{colors.neutral-black.value}"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "61970412620aedaa43a2da26",
+          "type": "TextStyle"
+        }
+      }
+    },
+    "paragraph-small-bold-low": {
+      "value": {
+        "font": {
+          "family": "ComicSansMS",
+          "size": 14,
+          "weight": 700,
+          "stretch": 1
+        },
+        "line_height": 22,
+        "letter_spacing": 0,
+        "color": "{colors.neutral-black.value}"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "6197041350e7eca8af0b584d",
+          "type": "TextStyle"
+        }
+      }
+    },
+    "button-hi": {
+      "value": {
+        "font": {
+          "family": "Inter",
+          "size": 15,
+          "weight": 500,
+          "stretch": 1
+        },
+        "line_height": 24,
+        "color": "rgb(255, 255, 255)"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "61970415d84574a8a3457982",
+          "type": "TextStyle"
+        }
+      }
+    },
+    "button-low": {
+      "value": {
+        "font": {
+          "family": "ComicSansMS",
+          "size": 16,
+          "weight": 400,
+          "stretch": 1
+        },
+        "line_height": 16,
+        "letter_spacing": -0.300000011920929,
+        "alignment": "center",
+        "color": "rgb(255, 255, 255)"
+      },
+      "metadata": {
+        "source": {
+          "styleguide": {
+            "id": "6196fde302d9b5adca2502aa",
+            "name": "Sample Style Guide",
+            "platform": "base"
+          }
+        },
+        "resource": {
+          "id": "61970415df779dabcc885caa",
+          "type": "TextStyle"
+        }
+      }
+    }
+  },
+  "spacing": {}
+}
